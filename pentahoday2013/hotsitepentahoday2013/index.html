@@ -1,0 +1,376 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=10"/>
+        <base href="http://fabiorogeriosj.com.br/pentahoday2013/">
+		<title>Pentaho Day 2013</title>
+        
+        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="css/reset-min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/js.js"></script>
+        <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+        <script type="text/javascript" src="js/waypoints.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+        <script type="text/javascript" src="js/utils.js"></script>
+        
+        <script type="text/javascript">
+			$(document).ready(function() {	
+				$(window).scroll(function(e) {
+					if(window.pageYOffset != 0)
+						$('.header').css('z-index', 1);
+					else {
+						$('.header').css('z-index', -1);
+						
+					}
+                });
+			
+				$('#1').click(function () {
+					$('#active1').show('slow');
+					$('#active2').hide('fast');
+					$('#active3').hide('fast');
+					$('#active4').hide('fast');
+					$('#active5').hide('fast');
+					
+					setTimeout(function(){
+						$('#2').mouseout();
+						$('#3').mouseout();
+						$('#4').mouseout();
+						$('#5').mouseout();
+					},500);
+				});
+				$('#2').click(function () {
+					$('#active1').hide('fast');
+					$('#active2').show('slow');
+					$('#active3').hide('fast');
+					$('#active4').hide('fast');
+					$('#active5').hide('fast');
+					
+					setTimeout(function(){
+						$('#1').mouseout();
+						$('#3').mouseout();
+						$('#4').mouseout();
+						$('#5').mouseout();
+					},500);
+				});
+				$('#3').click(function () {
+					$('#active1').hide('fast');
+					$('#active2').hide('fast');
+					$('#active3').show('slow');
+					$('#active4').hide('fast');
+					$('#active5').hide('fast');
+					
+					setTimeout(function(){
+						$('#1').mouseout();
+						$('#2').mouseout();
+						$('#4').mouseout();
+						$('#5').mouseout();
+					},500);
+				});
+				$('#4').click(function () {
+					$('#active1').hide('fast');
+					$('#active2').hide('fast');
+					$('#active3').hide('fast');
+					$('#active4').show('slow');
+					$('#active5').hide('fast');
+					
+					setTimeout(function(){
+						$('#1').mouseout();
+						$('#2').mouseout();
+						$('#3').mouseout();
+						$('#5').mouseout();
+					},500);
+				});
+				$('#5').click(function () {
+					$('#active1').hide('fast');
+					$('#active2').hide('fast');
+					$('#active3').hide('fast');
+					$('#active4').hide('fast');
+					$('#active5').show('slow');
+					
+					setTimeout(function(){
+						$('#1').mouseout();
+						$('#2').mouseout();
+						$('#3').mouseout();
+						$('#4').mouseout();
+					},500);
+				});
+			});
+			  
+		   var _gaq = _gaq || [];
+		  	_gaq.push(['_setAccount', 'UA-39205169-1']);
+		  	_gaq.push(['_trackPageview']);
+		
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	</head>
+
+	<body>
+    	<div id="header" class="header"></div>
+        <div class="navigation">
+            <div style="float:left; padding-top:30px;">
+                <img id="logo" src="assets/logo.png" style="cursor:pointer;" />
+            </div>
+            <div style="float:right; padding-top:68px; padding-right:100px;">
+                <ul>
+                    <li data-slide="2" style="padding-right:15px;">EVENTO</li>
+                    <li data-slide="3" style="padding-right:75px;">PALESTRANTES</li>
+                    <li data-slide="4" style="padding-right:78px;">PROGRAMAÇÃO</li>
+                    <li data-slide="5" style="padding-right:5px;">LOCAL</li>
+                    <li style="padding-right:45px;" onclick="alert('redirecionar site pentaho para solicitar ticket.')">INSCRIÇÕES</li>
+                    <li data-slide="6">CONTATO</li>
+                </ul>
+            </div>
+        </div>
+                      
+    	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+        	<div class="wrapper">
+           	  	<div class="data">
+                	D I A &nbsp;<span style="font-size:25px">2 0&nbsp; D E &nbsp;ABRIL DE 2013</span>&nbsp; E M&nbsp; FORTALEZA
+                </div>
+                <div class="content">
+                <br />
+                    O dia dedicado à apresentaçao <br />
+                  e troca de ideias sobre desenvolvimento<br />
+Open Source na plataforma Pentaho.
+<br />
+Venha fortalecer a sua comunidade. </div>
+                <div class="hora">
+                	<span style="font-size:25px">D A S &nbsp;9 H&nbsp; À S &nbsp;18 H </span>&nbsp;- &nbsp;N A &nbsp; Faculdade 7 de Setembro - FA7
+                </div>
+              	<div class="realization">
+                	Realização <br /><br />
+                    <img src="assets/organiz.png" border="0"/>
+              	</div>
+           	</div>
+    	</div><!--End Slide 1-->
+    
+    
+    
+        <div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+			<div class="wrapper">
+           		<div class="title">Sobre o Evento</div>
+                <div class="subtitle">
+                    Descrever aqui informa&ccedil;&otilde;es sobre o evento, 
+                descrever aqui informa&ccedil;&otilde;es sobre o evento, descrever aqui informa&ccedil;&otilde;es sobre o evento, descrever aqui informa&ccedil;&otilde;es sobre o evento.<br />
+                Descrever aqui informa&ccedil;&otilde;es sobre o evento, descrever aqui informa&ccedil;&otilde;es sobre o evento, descrever aqui informa&ccedil;&otilde;es sobre o evento</div>
+                .
+                <div class="column1">
+                	<img src="assets/slide2/runner.png" width="312" height="314" />
+                </div>
+            	<div class="column2">
+                    <div class="text">
+                        <p>Descrever aqui o conteudo complementar do pentaho day, descrever aqui o conteudo complementar do pentaho day, descrever aqui o conteudo complementar do pentaho day.</p>
+                      <p style="padding-top:20px;">Descrever aqui o conteudo complementar do pentaho day, descrever aqui o conteudo complementar do pentaho day, descrever aqui o conteudo complementar do pentaho day, descrever aqui o conteudo complementar do pentaho day, descrever aqui o conteudo complementar do pentaho day, descrever aqui o conteudo complementar do pentaho day.</p>
+                    </div>
+               	</div>
+            </div>
+        </div><!--End Slide 2-->
+    
+    
+    
+        <div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+            <div class="wrapper">
+            	<div class="title" style="color:#618bbc !important">Palestrantes</div>
+                <div class="speakers">
+                    <div id="1" class="column" >
+                        <div class="speaker_pic">
+                        	<img class="pic" src="assets/slide3/fotopales.png" width="164" height="164" />
+                            <img src="assets/slide3/name.png" width="164" height="163" style="margin-top:4px;" />
+                        </div>
+                    </div>
+                    <div id="3" class="column" >
+                        <div class="speaker_pic">
+                        <img class="pic" src="assets/slide3/fotopales.png" width="164" height="164" />
+                        <img src="assets/slide3/name.png" width="164" height="163" style="margin-top:4px;" />
+                      	</div>
+                    </div>
+					
+					 <div id="5" class="column">
+                        <div class="speaker_pic">
+                        	<img class="pic" src="assets/slide3/fotopales.png" width="164" height="164" />
+                            <img src="assets/slide3/name.png" width="164" height="163" style="margin-top:4px;" />
+                     	</div>
+                    </div>
+					
+                    <div id="2" class="column" >
+                        <div class="speaker_pic">
+                        	<img class="pic" src="assets/slide3/fotopales.png" width="164" height="164" />
+                            <img src="assets/slide3/name.png" width="164" height="163" style="margin-top:4px;" />
+                       	</div>
+                    </div>
+                    <div id="4" class="column" >
+                        <div class="speaker_pic">
+                        	<img class="pic" src="assets/slide3/fotopales.png" width="164" height="164" />
+                            <img src="assets/slide3/name.png" width="164" height="163" style="margin-top:4px;" />
+                      	</div>
+                    </div>
+                   
+                </div>
+                <div id="active1" class="active_speaker">
+                    <span class="active_speaker_name">Nome palestrante</span><br />
+                    <p>Assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aquiassunto que sera abordado no evento, descrever aqui.</p>
+                </div>
+                <div id="active3" class="active_speaker">
+                     <span class="active_speaker_name">Nome palestrante</span><br />
+                    <p>Assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aquiassunto que sera abordado no evento, descrever aqui.</p>
+                </div>
+                <div id="active2" class="active_speaker">
+                     <span class="active_speaker_name">Nome palestrante</span><br />
+                    <p>Assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aquiassunto que sera abordado no evento, descrever aqui.</p>
+                </div>
+                <div id="active4" class="active_speaker">
+                     <span class="active_speaker_name">Nome palestrante</span><br />
+                    <p>Assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aquiassunto que sera abordado no evento, descrever aqui.</p>
+                </div>
+                <div id="active5" class="active_speaker">
+                     <span class="active_speaker_name">Nome palestrante</span><br />
+                    <p>Assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aquiassunto que sera abordado no evento, descrever aqui.</p>
+                </div>
+            </div>
+        </div><!--End Slide 3-->
+    
+        <div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0">
+        	<div class="wrapper">
+           		<div class="title" style="color:#EBF4E3;">Programação</div>
+              	<div id="accordion" class="programacao">
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">08:00</span>Nome palestrante
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Descrição</div>
+                   	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">08:00</span>Nome palestrante
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Descrição</div>
+                    </p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">08:00</span>Nome palestrante
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Descrição</div>
+                   	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">08:00</span>Nome palestrante
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Descrição</div>
+                   	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">08:00</span>Nome palestrante
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Descrição</div>
+                  	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">08:00</span>Nome palestrante
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Descrição</div>
+                 	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">08:00</span>Nome palestrante
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Descrição</div>
+                	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">08:00</span>Nome palestrante
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Descrição</div>
+                   	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">08:00</span>Nome palestrante
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Descrição</div>
+                	</p>
+                    
+                    <p class="intervalos">Intervalos <span style="color:#EBF4E3;">10:00 hrs e 15:00 hrs</span></p>
+				</div>
+            </div>
+        </div><!--End Slide 4-->
+        
+        
+    
+        <div class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="0">
+        	<div class="wrapper">
+                <div class="title" style="color:#618bbc !important">Localização</div>
+                <div class="subtitle">Local do evento:</div>
+                <div class="text">Faculdade 7 de Setembro - FA7
+1395 Avenida Almirante Maximiniano da Fonseca 
+Fortaleza, CE 60811-020
+Brazil </div>
+                <div style="padding-top:20px;color:#FFF;font-size:30px;">
+                	Colocar map aqui!!!
+                </div>
+            </div>
+        </div><!--End Slide 5-->
+        
+    
+        		
+		<script type="text/javascript">
+			
+			function validarContatoMaringaAgile() {
+				var formContato = document.formContatoMaringaAgile;
+			
+				if (formContato.nome.value.length == 0) {
+					alert('O campo [ Nome ] não foi preenchido.');
+					formContato.nome.focus();
+					return false;
+				}
+				
+				if (formContato.email.value.length == 0) {
+					alert('O campo [ E-mail ] não foi preenchido.');
+					formContato.email.focus();
+					return false;
+				}else{
+					if(!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(formContato.email.value))){
+					   alert("É necessário o preenchimento de um endereço de e-mail válido.");
+					   formContato.email.focus();
+					   return false;
+					}
+				}
+			}
+		</script>
+
+        <div class="slide" id="slide6" data-slide="6" data-stellar-background-ratio="0">
+        	<div class="wrapper">
+                <div class="title">Entre em contato</div>
+                <div class="subtitle">Tire suas dúvidas e envie sugestões falando com a organização<br />do evento através dos dados abaixo:</div>
+                <div class="contato">
+                	<span class="title_contato">Dados da organização</span><br />
+                    Endereço<br />
+Telefones<br />
+E-mail<br />
+Site<br />
+Etc
+                </div>
+                <br />
+            </div>
+        </div><!--End Slide 6-->
+
+	</body>
+</html>

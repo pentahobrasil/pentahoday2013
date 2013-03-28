@@ -1,0 +1,401 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+html,body{
+ 	font-family:'NettoOT';
+	width:100%;
+	height:100%;
+
+	background-color:#f8f8f8;
+	background-image:url(../assets/transp_background_minimum.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position-y:-50px;
+}
+p{
+	line-height:17px;
+	padding-bottom:15px;
+}
+a:active,
+a:link,
+a:visited
+{
+	color:#EBF4E3;
+}
+textarea {
+	resize: none;
+}
+input{
+	border:none;
+	height:26px;
+}
+td{
+	text-align:right;
+	padding-right:15px;
+	height:40px;
+	width:90px;
+}
+*:focus {outline: none;}
+
+.header{
+	position:fixed;
+	background-color:#f8f8f8;
+	z-index:0;
+	width:100%;
+	height:150px;
+}
+.navigation{
+	position:fixed;
+	z-index:1;
+	left:50%;
+	width:1100px;
+	margin-left:-500px;
+	font-family:'NettoOT-Light';
+}
+.navigation li{
+	float:left;
+	color:#00397c;
+	display:block;
+	padding: 0 10px;
+	line-height:30px;
+	margin-bottom:2px;
+	font-size:21px;
+	-webkit-transition: all .2s ease-in-out;
+	text-align:left;
+	width:53px;
+}
+.navigation li:hover,.active{
+	cursor:pointer;
+	color:#4274b0!important;
+}
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:1100px;
+	position: relative;
+}
+.slideno{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	font-size:100px;
+	font-weight:bold;
+	color:rgba(255,255,255,0.3);
+}
+
+/******************************
+ GENERAL
+*******************************/
+.title{
+	font-size:55px;
+	color:#00397c;
+	font-family:'NeoSansStd-Ultra';
+}
+.wrapper{
+	width:1000px;
+	margin:0 auto;
+	padding-top:180px;
+}
+/******************************
+ SLIDE 1 
+*******************************/
+#slide1{
+	left:50%;
+	width:1000px;
+	margin-left:-500px;
+}
+#slide1 .realization{
+	position:absolute;
+	top:58%;
+	font-family:'NeoSansStd-Regular';
+	font-size:13px;
+	color:#00397c;
+}
+#slide1 .footer{
+	position:absolute;
+	bottom:30px;
+	top:54%;
+}
+#slide1 .content{
+	position:absolute;
+	top:20%;
+	font-size:55px;
+	color:#1d2a33;
+	font-family:'NeoSansStd-Light';
+}
+#slide1 .data{
+	position:absolute;
+	top:20%;
+	font-size:17px;
+	color:#00397c;
+	font-family:'NettoOT-Bold';
+}
+#slide1 .hora{
+	position:absolute;
+	top:55%;
+	font-size:17px;
+	color:#00397c;
+	font-family:'NettoOT-Bold';
+}
+/******************************
+ SLIDE 2 
+*******************************/
+#slide2{
+	background-color:#EBF5E3;
+	height:850px;
+}
+#slide2 .subtitle{
+	padding-top:20px;
+	font-size:21px;
+	color:#5B5B5B;
+	font-family:'NettoOT-Bold';
+}
+#slide2 .text{
+	padding-top:40px;
+	font-size:17px;
+	color:#5A5A5A;
+	font-family:'NettoOT'; /*mudar para 'NettoOT-Regular';*/
+}
+#slide2 .column1{
+	float:left;
+/*	width:514px;*/
+	padding-top:25px;
+	padding-right:25px;
+}
+#slide2 .column2{
+	padding-top:60px;
+}
+/******************************
+ SLIDE 3 
+*******************************/
+#slide3{
+	background-color:#131519;
+}
+#slide3 .column{
+	float:left;
+	width:185px;
+	padding-top:20px;
+	cursor:pointer;
+}
+#slide3 .speaker_name{
+	width:185px;
+	height:29px;
+	background-image:url(../assets/slide3/back_speaker_name.png);
+	background-repeat:no-repeat;
+	padding-left:20px;
+	padding-top:10px;
+	color:#AB513F;
+	font-family:'NeoSansStd-Bold';
+	font-size:13px;
+}
+#slide3 .speaker_pic{
+	width:185px;
+	padding-top:30px;
+}
+#slide3 .active_speaker{
+	padding-top:25px;
+	color:#EBF4E3;
+	font-size:16px;
+	clear:both;
+	display:none;
+	width:900px;
+}
+#slide3 .active_speaker_name{
+	font-family:'NettoOT';
+	font-size:55px;
+	color:#00397c;
+	padding-top:15px;
+}
+/******************************
+ SLIDE 4 
+*******************************/
+#slide4{
+/*	background-color:#EBF5E3;*/
+	background-image:url(../assets/slide4/pattern.jpg);
+}
+#slide4 .programacao{
+	font-family:'NettoOT';
+	font-size:21px;
+	color:#131519;
+	padding-top:25px;
+}
+#slide4 .horario{
+	color:#668ab3;
+	float:left;
+	width:70px;
+}
+#slide4 .intervalos{
+	font-family:'NettoOT-Bold';
+	padding-top:55px;
+}
+#slide4 .menu_list {	
+	width: 150px;
+}
+#slide4 .menu_head {
+	cursor: pointer;
+	margin-left:4px;
+}
+#slide4 .menu_body {
+	display:none;
+	width:800px;
+	font-size:17px;
+	color:#EBF4E3;
+	padding-top:50px;
+}
+#slide4 .palestrante{
+	position:absolute;
+	color:#EBF4E3;
+	background-color:#131519;
+	padding-left:10px;
+	padding-right:10px;
+	height:30px;
+	padding-top:5px;
+}
+#slide4 .separacao{
+	padding-bottom:30px;
+}
+
+/******************************
+ SLIDE 5
+*******************************/
+#slide5{
+	background-color:#131519;
+}
+#slide5 .text{
+	font-family:'NettoOT';
+	font-size:16px;
+	color:#EBF5E3;
+}
+#slide5 .subtitle{
+	font-family:'NettoOT-Bold';
+	font-size:34px;
+	color:#EBF5E3;
+	padding-top:35px;
+}
+
+/******************************
+ SLIDE 6
+*******************************/
+#slide6{
+	background-color:#EBF5E3;
+}
+#slide6 .subtitle{
+	font-family:'NettoOT-Bold';
+	font-size:21px;
+	color:#131519;
+	padding-top:15px;
+	padding-bottom:50px;
+}
+#slide6 .contato{
+	width:780px;
+	padding-top:5px;
+}
+#slide6 .title_contato{
+	font-family:'NettoOT-Bold';
+	font-size:16px;
+	color:#131519;
+}
+#slide6 .text_contato{
+	font-family:'NettoOT';
+	font-size:16px;
+	color:#EBF4E3;
+	padding-top:25px;
+}
+#slide6 .recado{
+	width:780px;
+	height:290px;
+	background-color:#131519;
+	padding-left:20px;
+	padding-top:25px;
+}
+#slide6 .title_recado{
+	font-family:'NettoOT-Bold';
+	font-size:21px;
+	color:#EBF4E3;
+}
+#slide6 .text_recado{
+	font-family:'NettoOT';
+	font-size:16px;
+	color:#EBF4E3;
+}
+
+@font-face {
+    font-family: 'NettoOT';
+    src: url('font/NettoOT.eot');
+    src: url('font/NettoOT.eot?#iefix') format('embedded-opentype'),
+		 /*url('font/NettoOT.svg') format('svg'),*/
+         url('font/NettoOT.woff') format('woff'),
+         url('font/NettoOT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NettoOT-Bold';
+    src: url('font/NettoOT-Bold.eot');
+    src: url('font/NettoOT-Bold.eot?#iefix') format('embedded-opentype'),
+		 /*url('font/NettoOT-Bold.svg') format('svg'),*/
+         url('font/NettoOT-Bold.woff') format('woff'),
+         url('font/NettoOT-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NettoOT-Light';
+    src: url('font/NettoOT-Light.eot');
+    src: url('font/NettoOT-Light.eot?#iefix') format('embedded-opentype'),
+		 /*url('font/NettoOT-Light.svg') format('svg'),*/
+         url('font/NettoOT-Light.woff') format('woff'),
+         url('font/NettoOT-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NeoSansStd-Light';
+    src: url('font/NeoSansStd-Light.eot');
+    src: url('font/NeoSansStd-Light.eot?#iefix') format('embedded-opentype'),
+         /*url('font/NeoSansStd-Light.svg') format('svg'),*/
+		 url('font/NeoSansStd-Light.woff') format('woff'),
+         url('font/NeoSansStd-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NeoSansStd-Regular';
+    src: url('font/NeoSansStd-Regular.eot');
+    src: url('font/NeoSansStd-Regular.eot?#iefix') format('embedded-opentype'),
+         /*url('font/NeoSansStd-Regular.svg') format('svg'),*/
+		 url('font/NeoSansStd-Regular.woff') format('woff'),
+         url('font/NeoSansStd-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NeoSansStd-Ultra';
+    src: url('font/NeoSansStd-Ultra.eot');
+    src: url('font/NeoSansStd-Ultra.eot?#iefix') format('embedded-opentype'),
+         /*url('font/NeoSansStd-Ultra.svg') format('svg'),*/
+		 url('font/NeoSansStd-Ultra.woff') format('woff'),
+         url('font/NeoSansStd-Ultra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NeoSansStd-Bold';
+    src: url('font/NeoSansStd-Bold.eot');
+    src: url('font/NeoSansStd-Bold.eot?#iefix') format('embedded-opentype'),
+         /*url('font/NeoSansStd-Bold.svg') format('svg'),*/
+		 url('font/NeoSansStd-Bold.woff') format('woff'),
+         url('font/NeoSansStd-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NeoSansStd-Medium';
+    src: url('font/NeoSansStd-Medium.eot');
+    src: url('font/NeoSansStd-Medium.eot?#iefix') format('embedded-opentype'),
+         /*url('font/NeoSansStd-Medium.svg') format('svg'),*/
+		 url('font/NeoSansStd-Medium.woff') format('woff'),
+         url('font/NeoSansStd-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

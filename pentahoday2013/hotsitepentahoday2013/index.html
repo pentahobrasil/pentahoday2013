@@ -4,12 +4,14 @@
 	<head>
     	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
         <meta http-equiv="X-UA-Compatible" content="IE=10"/>
-        <base href="http://fabiorogeriosj.com.br/pentahoday2013/">
+        <base href="http://pentahoday2013.iticdigital.org/">
 		<title>Pentaho Day 2013</title>
         
         <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="css/reset-min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.4.css">
+        <link rel="stylesheet" type="text/css" href="js/tipsy.css">
         
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/js.js"></script>
@@ -18,7 +20,9 @@
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
         <script type="text/javascript" src="js/functions.js"></script>
         <script type="text/javascript" src="js/utils.js"></script>
-        
+        <script type="text/javascript" src="js/fancybox/jquery.easing-1.3.pack.js"></script>
+        <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+        <script type="text/javascript" src="js/jquery.tipsy.js"></script>
         <script type="text/javascript">
 			$(document).ready(function() {	
 				$(window).scroll(function(e) {
@@ -36,12 +40,23 @@
 					$('#active3').hide('fast');
 					$('#active4').hide('fast');
 					$('#active5').hide('fast');
+					$('#active6').hide('fast');
+					$('#active7').hide('fast');
+					$('#active8').hide('fast');
+					$('#active9').hide('fast');
+					$('#active10').hide('fast');
+					
 					
 					setTimeout(function(){
 						$('#2').mouseout();
 						$('#3').mouseout();
 						$('#4').mouseout();
 						$('#5').mouseout();
+						$('#6').mouseout();
+						$('#7').mouseout();
+						$('#8').mouseout();
+						$('#9').mouseout();
+						$('#10').mouseout();
 					},500);
 				});
 				$('#2').click(function () {
@@ -50,12 +65,22 @@
 					$('#active3').hide('fast');
 					$('#active4').hide('fast');
 					$('#active5').hide('fast');
+					$('#active6').hide('fast');
+					$('#active7').hide('fast');
+					$('#active8').hide('fast');
+					$('#active9').hide('fast');
+					$('#active10').hide('fast');
 					
 					setTimeout(function(){
 						$('#1').mouseout();
 						$('#3').mouseout();
 						$('#4').mouseout();
 						$('#5').mouseout();
+						$('#6').mouseout();
+						$('#7').mouseout();
+						$('#8').mouseout();
+						$('#9').mouseout();
+						$('#10').mouseout();
 					},500);
 				});
 				$('#3').click(function () {
@@ -64,12 +89,22 @@
 					$('#active3').show('slow');
 					$('#active4').hide('fast');
 					$('#active5').hide('fast');
+					$('#active6').hide('fast');
+					$('#active7').hide('fast');
+					$('#active8').hide('fast');
+					$('#active9').hide('fast');
+					$('#active10').hide('fast');
 					
 					setTimeout(function(){
 						$('#1').mouseout();
 						$('#2').mouseout();
 						$('#4').mouseout();
 						$('#5').mouseout();
+						$('#6').mouseout();
+						$('#7').mouseout();
+						$('#8').mouseout();
+						$('#9').mouseout();
+						$('#10').mouseout();
 					},500);
 				});
 				$('#4').click(function () {
@@ -78,12 +113,22 @@
 					$('#active3').hide('fast');
 					$('#active4').show('slow');
 					$('#active5').hide('fast');
+					$('#active6').hide('fast');
+					$('#active7').hide('fast');
+					$('#active8').hide('fast');
+					$('#active9').hide('fast');
+					$('#active10').hide('fast');
 					
 					setTimeout(function(){
 						$('#1').mouseout();
 						$('#2').mouseout();
 						$('#3').mouseout();
 						$('#5').mouseout();
+						$('#6').mouseout();
+						$('#7').mouseout();
+						$('#8').mouseout();
+						$('#9').mouseout();
+						$('#10').mouseout();
 					},500);
 				});
 				$('#5').click(function () {
@@ -92,25 +137,158 @@
 					$('#active3').hide('fast');
 					$('#active4').hide('fast');
 					$('#active5').show('slow');
+					$('#active6').hide('fast');
+					$('#active7').hide('fast');
+					$('#active8').hide('fast');
+					$('#active9').hide('fast');
+					$('#active10').hide('fast');
 					
 					setTimeout(function(){
 						$('#1').mouseout();
 						$('#2').mouseout();
 						$('#3').mouseout();
 						$('#4').mouseout();
+						$('#6').mouseout();
+						$('#7').mouseout();
+						$('#8').mouseout();
+						$('#9').mouseout();
+						$('#10').mouseout();
 					},500);
 				});
+				$('#6').click(function () {
+					$('#active1').hide('fast');
+					$('#active2').hide('fast');
+					$('#active3').hide('fast');
+					$('#active4').hide('fast');
+					$('#active5').hide('fast');
+					$('#active6').show('slow');
+					$('#active7').hide('fast');
+					$('#active8').hide('fast');
+					$('#active9').hide('fast');
+					$('#active10').hide('fast');
+					
+					setTimeout(function(){
+						$('#1').mouseout();
+						$('#2').mouseout();
+						$('#3').mouseout();
+						$('#4').mouseout();
+						$('#5').mouseout();
+						$('#7').mouseout();
+						$('#8').mouseout();
+						$('#9').mouseout();
+						$('#10').mouseout();
+					},500);
+				});
+				$('#7').click(function () {
+					$('#active1').hide('fast');
+					$('#active2').hide('fast');
+					$('#active3').hide('fast');
+					$('#active4').hide('fast');
+					$('#active5').hide('fast');
+					$('#active6').hide('fast');
+					$('#active7').show('slow');
+					$('#active8').hide('fast');
+					$('#active9').hide('fast');
+					$('#active10').hide('fast');
+					
+					setTimeout(function(){
+						$('#1').mouseout();
+						$('#2').mouseout();
+						$('#3').mouseout();
+						$('#4').mouseout();
+						$('#5').mouseout();
+						$('#6').mouseout();
+						$('#8').mouseout();
+						$('#9').mouseout();
+						$('#10').mouseout();
+					},500);
+				});
+				$('#8').click(function () {
+					$('#active1').hide('fast');
+					$('#active2').hide('fast');
+					$('#active3').hide('fast');
+					$('#active4').hide('fast');
+					$('#active5').hide('fast');
+					$('#active6').hide('fast');
+					$('#active7').hide('fast');
+					$('#active8').show('slow');
+					$('#active9').hide('fast');
+					$('#active10').hide('fast');
+					
+					setTimeout(function(){
+						$('#1').mouseout();
+						$('#2').mouseout();
+						$('#3').mouseout();
+						$('#4').mouseout();
+						$('#5').mouseout();
+						$('#6').mouseout();
+						$('#7').mouseout();
+						$('#9').mouseout();
+						$('#10').mouseout();
+					},500);
+				});
+				$('#9').click(function () {
+					$('#active1').hide('fast');
+					$('#active2').hide('fast');
+					$('#active3').hide('fast');
+					$('#active4').hide('fast');
+					$('#active5').hide('fast');
+					$('#active6').hide('fast');
+					$('#active7').hide('fast');
+					$('#active8').hide('fast');
+					$('#active9').show('slow');
+					$('#active10').hide('fast');
+					
+					setTimeout(function(){
+						$('#1').mouseout();
+						$('#2').mouseout();
+						$('#3').mouseout();
+						$('#4').mouseout();
+						$('#5').mouseout();
+						$('#6').mouseout();
+						$('#7').mouseout();
+						$('#8').mouseout();
+						$('#10').mouseout();
+					},500);
+				});
+				$('#10').click(function () {
+					$('#active1').hide('fast');
+					$('#active2').hide('fast');
+					$('#active3').hide('fast');
+					$('#active4').hide('fast');
+					$('#active5').hide('fast');
+					$('#active6').hide('fast');
+					$('#active7').hide('fast');
+					$('#active8').hide('fast');
+					$('#active9').hide('fast');
+					$('#active10').show('slow');
+					
+					setTimeout(function(){
+						$('#1').mouseout();
+						$('#2').mouseout();
+						$('#3').mouseout();
+						$('#4').mouseout();
+						$('#5').mouseout();
+						$('#6').mouseout();
+						$('#7').mouseout();
+						$('#8').mouseout();
+						$('#10').mouseout();
+					},500);
+				});
+				
+				$('#slide3 .panelPalest1').click(function (){
+					$('html, body').animate({
+						scrollTop: $("#palest1").offset().top
+					}, 1000);   
+			   });
+			   $('#slide3 .panelPalest2').click(function (){
+					$('html, body').animate({
+						scrollTop: $("#palest2").offset().top - 100
+					}, 1000);   
+			   });
 			});
 			  
-		   var _gaq = _gaq || [];
-		  	_gaq.push(['_setAccount', 'UA-39205169-1']);
-		  	_gaq.push(['_trackPageview']);
-		
-		  (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
+		   
 
 		</script>
 	</head>
@@ -127,7 +305,7 @@
                     <li data-slide="3" style="padding-right:75px;">PALESTRANTES</li>
                     <li data-slide="4" style="padding-right:78px;">PROGRAMAÇÃO</li>
                     <li data-slide="5" style="padding-right:5px;">LOCAL</li>
-                    <li style="padding-right:45px;" onclick="alert('redirecionar site pentaho para solicitar ticket.')">INSCRIÇÕES</li>
+                    <li style="padding-right:45px;" onclick="window.open('http://pentahoday2013.eventbrite.com/')">INSCRIÇÕES</li>
                     <li data-slide="6">CONTATO</li>
                 </ul>
             </div>
@@ -150,7 +328,15 @@ Venha fortalecer a sua comunidade. </div>
                 </div>
               	<div class="realization">
                 	Realização <br /><br />
-                    <img src="assets/organiz.png" border="0"/>
+                    <div id="organizacaoIndex">
+                    <a href="http://www.fa7.edu.br/"><img src="assets/FA7.png" width="100px" border="0"/></a>
+                    <a href="http://iticdigital.org/"><img src="assets/logo_itic.png" width="100px" border="0"/></a>
+                    <a href="http://www.it4biz.com.br/"><img src="assets/logo-it4biz.png" width="100px" border="0"/></a>
+                    <a href="http://www.oncase.com.br/"><img src="assets/logo-oncase1.png" width="100px" border="0"/></a>
+                    <a href="http://www.ambientelivre.com.br/"><img src="assets/logoambientelivreletracinza_big.png" width="100px" border="0"/></a>
+                    <a href="http://www.webdetails.pt/"><img src="assets/Webdetails.png" width="100px" border="0"/></a>
+                    
+                    </div>
               	</div>
            	</div>
     	</div><!--End Slide 1-->
@@ -161,17 +347,26 @@ Venha fortalecer a sua comunidade. </div>
 			<div class="wrapper">
            		<div class="title">Sobre o Evento</div>
                 <div class="subtitle">
-                    Descrever aqui informa&ccedil;&otilde;es sobre o evento, 
-                descrever aqui informa&ccedil;&otilde;es sobre o evento, descrever aqui informa&ccedil;&otilde;es sobre o evento, descrever aqui informa&ccedil;&otilde;es sobre o evento.<br />
-                Descrever aqui informa&ccedil;&otilde;es sobre o evento, descrever aqui informa&ccedil;&otilde;es sobre o evento, descrever aqui informa&ccedil;&otilde;es sobre o evento</div>
-                .
+Durante os últimos anos, a Comunidade Pentaho tem se reunido para trocar experiências e se conhecer pessoalmente. <br/>
+O primeiro encontro foi em 2008 em Mainz na Alemanha, o segundo foi em 2009, em Barcelona na Espanha, e o terceiro foi em 2010 em Lisboa, Portugal. <br/>
+Em 2011, além da Europa, a America do Sul também começou a sediar esse evento; nesse ano o encontro aconteceu em São Paulo, Brasil e em Roma, Itália. <br/>
+Após o sucesso em 2011, o evento foi realizado em 2012 na cidade de Recife, Brasil e Amsterdam, Holanda. Agora em 2013 o evento acontecerá em Fortaleza, Brasil. 
+<br/><br/>
+<div class="inphotosEvento">
+            <a id="example1" href="assets/pentahodayold/8602532219_34f77dcd4f_c.jpg" title="Pentaho Community Gathering - Barcelona 2009"><img alt="example1" src="assets/pentahodayold/8602532219_34f77dcd4f_c.jpg" height="100"></a>
+            <a id="example2" href="assets/pentahodayold/pentahoday-2.jpg" title="Pentaho Community Gathering - Mainz 2008"><img alt="example2" src="assets/pentahodayold/pentahoday-2.jpg" height="100"></a>
+            <a id="example3" href="assets/pentahodayold/8599609103_ca7602d3d1_c.jpg" title="Pentaho Day 2012 @ Recife"><img alt="example3" src="assets/pentahodayold/8599609103_ca7602d3d1_c.jpg" height="100"></a>
+            <a id="example4" href="assets/pentahodayold/8600708796_e1ef0e2c5c_c.jpg" title="Pentaho Day 2012 @ Recife"><img alt="example4" src="assets/pentahodayold/8600708796_e1ef0e2c5c_c.jpg" height="100"></a>
+            
+            </div>
+</div>
                 <div class="column1">
                 	<img src="assets/slide2/runner.png" width="312" height="314" />
                 </div>
             	<div class="column2">
                     <div class="text">
-                        <p>Descrever aqui o conteudo complementar do pentaho day, descrever aqui o conteudo complementar do pentaho day, descrever aqui o conteudo complementar do pentaho day.</p>
-                      <p style="padding-top:20px;">Descrever aqui o conteudo complementar do pentaho day, descrever aqui o conteudo complementar do pentaho day, descrever aqui o conteudo complementar do pentaho day, descrever aqui o conteudo complementar do pentaho day, descrever aqui o conteudo complementar do pentaho day, descrever aqui o conteudo complementar do pentaho day.</p>
+                        <p>O evento é gratuito, faça sua inscrição agora! <a style="color:#036" href="http://pentahoday2013.eventbrite.com/">Clique aqui</a></p>
+                      
                     </div>
                	</div>
             </div>
@@ -185,57 +380,234 @@ Venha fortalecer a sua comunidade. </div>
                 <div class="speakers">
                     <div id="1" class="column" >
                         <div class="speaker_pic">
-                        	<img class="pic" src="assets/slide3/fotopales.png" width="164" height="164" />
-                            <img src="assets/slide3/name.png" width="164" height="163" style="margin-top:4px;" />
+                        	<img  class="pic panelPalest1" src="assets/slide3/caio-0.png" width="164" height="164" 
+onmouseover="$(this).attr('src','assets/slide3/caio-1.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-caio-1.png')"
+                            onmouseout="$(this).attr('src','assets/slide3/caio-0.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-caio-0.png')"/>
+                            <img class="namePalestrante panelPalest1" src="assets/slide3/name-caio-0.png" width="164" height="163" style="margin-top:4px;" />
+                            <div style="margin-top:-40px;margin-left:-20px;text-align:center">
+                            <a href="https://twitter.com/caiomsouza" title="Twitter"><img src="assets/ico-t.png" border="0" /></a>
+                            <a href="http://blog.professorcoruja.com" title="Blog"><img src="assets/ico-b.png" border="0"/></a>
+                            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.jsp?id=K4130553E7" title="Latter"><img src="assets/ico-c.png" border="0"/></a>
+                            <a href="http://www.linkedin.com/pub/dir/caio/moreno%20de%20souza" title="Linkdin"><img src="assets/ico-in.png" border="0"/></a>
+                            <a href="http://blog.it4biz.com.br" title="Vídeos"><img src="assets/ico-youtube.png" border="0"/></a>
+                            </div>
                         </div>
                     </div>
+                    
                     <div id="3" class="column" >
                         <div class="speaker_pic">
-                        <img class="pic" src="assets/slide3/fotopales.png" width="164" height="164" />
-                        <img src="assets/slide3/name.png" width="164" height="163" style="margin-top:4px;" />
+                        <img  id="palest1" class="pic panelPalest1" src="assets/slide3/ricardo-0.png" width="164" height="164" 
+onmouseover="$(this).attr('src','assets/slide3/ricardo-1.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-ricardo-1.png')"
+                            onmouseout="$(this).attr('src','assets/slide3/ricardo-0.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-ricardo-0.png')"/>
+                            <img class="namePalestrante panelPalest1" src="assets/slide3/name-ricardo-0.png" width="164" height="163" style="margin-top:4px;" />
+                            <div style="margin-top:-40px;margin-left:-20px;text-align:center">
+                            <!--
+                            <a href="#" ><img src="assets/ico-t.png" border="0" /></a>
+                            <a href="#"><img src="assets/ico-b.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-c.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-in.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-youtube.png" border="0"/></a>
+                            -->
+                            </div>
                       	</div>
                     </div>
 					
 					 <div id="5" class="column">
                         <div class="speaker_pic">
-                        	<img class="pic" src="assets/slide3/fotopales.png" width="164" height="164" />
-                            <img src="assets/slide3/name.png" width="164" height="163" style="margin-top:4px;" />
-                     	</div>
+                        <img  id="palest1" class="pic panelPalest1" src="assets/slide3/pedro-0.png" width="164" height="164" 
+onmouseover="$(this).attr('src','assets/slide3/pedro-1.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-pedro-1.png')"
+                            onmouseout="$(this).attr('src','assets/slide3/pedro-0.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-pedro-0.png')"/>
+                            <img class="namePalestrante panelPalest1" src="assets/slide3/name-pedro-0.png" width="164" height="163" style="margin-top:4px;" />
+                            <div style="margin-top:-40px;margin-left:-20px;text-align:center">
+                            <!--
+                            <a href="#" ><img src="assets/ico-t.png" border="0" /></a>
+                            <a href="#"><img src="assets/ico-b.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-c.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-in.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-youtube.png" border="0"/></a>
+                            -->
+                            </div>
+                      	</div>
                     </div>
 					
                     <div id="2" class="column" >
                         <div class="speaker_pic">
-                        	<img class="pic" src="assets/slide3/fotopales.png" width="164" height="164" />
-                            <img src="assets/slide3/name.png" width="164" height="163" style="margin-top:4px;" />
-                       	</div>
+                        <img  id="palest1" class="pic panelPalest1" src="assets/slide3/rafael-0.png" width="164" height="164" 
+onmouseover="$(this).attr('src','assets/slide3/rafael-1.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-rafael-1.png')"
+                            onmouseout="$(this).attr('src','assets/slide3/rafael-0.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-rafael-0.png')"/>
+                            <img class="namePalestrante panelPalest1" src="assets/slide3/name-rafael-0.png" width="164" height="163" style="margin-top:4px;" />
+                            <div style="margin-top:-40px;margin-left:-20px;text-align:center">
+                            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=H4398944" title="Latter"><img src="assets/ico-c.png" border="0"/></a>
+                            </div>
+                      	</div>
                     </div>
                     <div id="4" class="column" >
                         <div class="speaker_pic">
-                        	<img class="pic" src="assets/slide3/fotopales.png" width="164" height="164" />
-                            <img src="assets/slide3/name.png" width="164" height="163" style="margin-top:4px;" />
+                        <img  id="palest1" class="pic panelPalest1" src="assets/slide3/carina-0.png" width="164" height="164" 
+onmouseover="$(this).attr('src','assets/slide3/carina-1.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-carina-1.png')"
+                            onmouseout="$(this).attr('src','assets/slide3/carina-0.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-carina-0.png')"/>
+                            <img class="namePalestrante panelPalest1" src="assets/slide3/name-carina-0.png" width="164" height="163" style="margin-top:4px;" />
+                            <div style="margin-top:-40px;margin-left:-20px;text-align:center">
+                            <a href="http://www.mariacarinaroldan.blogspot.com.br/" title="Blog"><img src="assets/ico-b.png" border="0"/></a>
+                            <a href="http://www.packtpub.com/authors/profiles/maria-carina-roldan" title="Blog"><img src="assets/ico-b.png" border="0"/></a>
+                            <a href="https://twitter.com/mariacroldan" title="Twitter"><img src="assets/ico-t.png" border="0"/></a>
+                            </div>
+                      	</div>
+                    </div>
+                    <div id="active1" class="active_speaker">
+                    <span class="active_speaker_name">Caio Moreno de Souza (a.k.a Professor Coruja)</span><br />
+                    <p>Formação: Especialista em Modelagem Dimensional pela Kimball University (USA),
+tendo assistido aulas com o Prof. Dr. (P.h.d) Ralph Kimball e Margy Ross. Realizou o
+curso de Negociação em Harvard (Boston-USA), MBA Executivo em Gestão
+Estratégica de Tecnologia da Informação na Fundação Getulio Vargas - São Paulo,
+Pós Graduação em Tecnologia Java na Universidade Tecnológica Federal do Paraná,
+Bacharelado em Tecnologia e Midias Digitais pela Pontifícia Universidade Católica de
+São Paulo com ênfase em Educação a Distância, e Técnico de Eletrônica pela Escola
+Técnica Estadual Guaracy Silveira.</p>
+				<p>Experiência Profissional: 12 anos de experiência, tendo trabalhado em projetos de
+VoIP, EAD, CRM e Business Intelligence focados na utilização de tecnologia Open
+Source para empresas nacionais e multi nacionais.</p>
+<p>Criador do blog Professor Coruja - fonte de informação gratuita sobre diversos
+assuntos ligados a tecnologias open source, principalmente sobre Pentaho - que é
+conhecido e visitado mundialmente. Por ser o criador do blog é conhecido na
+comunidade como Professor Coruja. Tradutor desde a versão 1.6 do Pentaho para o
+português e bastante ativo na comunidade mundial do Pentaho. Pioneiro, contribuiu de
+forma significativa no desenvolvimento do Pentaho no Brasil e no mundo. Utiliza o
+Pentaho como principal ferramenta nos projetos para empresas nacionais e
+multinacionais dos quais participa.</p>
+<p>Fluente nos idiomas Português, Espanhol e Inglês.</p>
+                </div>
+                <div id="active3" class="active_speaker">
+                     <span class="active_speaker_name">Ricardo Gouvêa</span><br />
+                    <p>Ricardo Gouvêa - Formado em administração de empresas - Carreira Profissional com mais de 18 anos em TI – 13 dedicados ao desenvolvimento de projetos de BI – Iniciou sua carreira no Banco Bradesco como analista de suporte técnico e em 1999 deu inicio em sua trajetória com BI, trabalhando no principal parceiro da Business Objects no Brasil, passou pela multinacional Sagent como consultor pre-venda LATAM e desenvolveu ao longo deste período inúmeros projetos, dentre eles Porto Seguro, Intermédica, Pfizer, SEESP, USP, Unibanco, dentre muitos outros. Atualmente é Sócio Diretor da empresa Open Consulting, especializada no desenvolvimento de soluções de Business Intelligence com Pentaho e responsável pelo Blog PlanetaPentaho.</p>
+                </div>
+                <div id="active5" class="active_speaker">
+                     <span class="active_speaker_name">Pedro Alves</span><br />
+                    <p>Pedro Alves, português, residente em Lisboa, é criador e mantenedor das ferramentas C (saiba mais acessando ctools.webdetails.org).</p>
+                </div>
+                <div id="active2" class="active_speaker">
+                     <span class="active_speaker_name">Rafael Moreira Cunha</span><br />
+                    <p>Possui graduação em Ciência da Computação pela Universidade Gama Filho(2002), mestrado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro(2011) e curso-tecnico-profissionalizantepela Liceu de Artes e Ofícios do Rio de Janeiro(1998). Atualmente é Analista de Sistemas Sênior da Globo.com. Tem experiência na área de Ciência da Computação, com ênfase em Interação Humano Computador.</p>
+                </div>
+                <div id="active4" class="active_speaker">
+                     <span class="active_speaker_name">Maria Carina Roldan</span><br />
+                    <p>María Carina was born in Esquel, Argentina, in 1970. She earned her Bachelor degree in Computer Science at UNLP in La Plata and then moved to Buenos Aires where she has lived since 1994.
+
+She has worked as a BI consultant for more than ten years. Over the last four, she has been dedicated full time to developing BI solutions using Pentaho Suite. Currently she works for Webdetails, one of the main Pentaho contributors.
+
+She is the author of Pentaho 3.2 Data Integration: Beginner's Guide published by Packt Publishing in April 2010.</p>
+                </div>
+                    <div id="6" class="column" >
+                        <div id="palest2" class="speaker_pic">
+                        <img class="pic panelPalest2" src="assets/slide3/fotopales-0.png" width="164" height="164" 
+onmouseover="$(this).attr('src','assets/slide3/fotopales-1.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-coutinho-1.png')"
+                            onmouseout="$(this).attr('src','assets/slide3/fotopales-0.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-coutinho-0.png')"/>
+                            <img class="namePalestrante panelPalest2" src="assets/slide3/name-coutinho-0.png" width="164" height="163" style="margin-top:4px;" />
+                            <div style="margin-top:-40px;margin-left:-20px;text-align:center">
+                            <!--
+                            <a href="#" ><img src="assets/ico-t.png" border="0" /></a>
+                            <a href="#"><img src="assets/ico-b.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-c.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-in.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-youtube.png" border="0"/></a>
+                            -->
+                            </div>
+                      	</div>
+                    </div>
+                    
+                    <div id="7" class="column" >
+                        <div class="speaker_pic">
+                        <img  class="pic panelPalest2" src="assets/slide3/fotopales-0.png" width="164" height="164" 
+onmouseover="$(this).attr('src','assets/slide3/fotopales-1.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-luis-1.png')"
+                            onmouseout="$(this).attr('src','assets/slide3/fotopales-0.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-luis-0.png')"/>
+                            <img class="namePalestrante panelPalest2" src="assets/slide3/name-luis-0.png" width="164" height="163" style="margin-top:4px;" />
+                            <div style="margin-top:-40px;margin-left:-20px;text-align:center">
+                            <!--
+                            <a href="#" ><img src="assets/ico-t.png" border="0" /></a>
+                            <a href="#"><img src="assets/ico-b.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-c.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-in.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-youtube.png" border="0"/></a>
+                            -->
+                            </div>
+                      	</div>
+                    </div>
+                    
+                    <div id="8" class="column" >
+                        <div class="speaker_pic">
+                        <img  class="pic panelPalest2" src="assets/slide3/fotopales-0.png" width="164" height="164" 
+onmouseover="$(this).attr('src','assets/slide3/fotopales-1.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-marcio-1.png')"
+                            onmouseout="$(this).attr('src','assets/slide3/fotopales-0.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-marcio-0.png')"/>
+                            <img class="namePalestrante panelPalest2" src="assets/slide3/name-marcio-0.png" width="164" height="163" style="margin-top:4px;" />
+                            <div style="margin-top:-40px;margin-left:-20px;text-align:center">
+                            <!--
+                            <a href="#" ><img src="assets/ico-t.png" border="0" /></a>
+                            <a href="#"><img src="assets/ico-b.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-c.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-in.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-youtube.png" border="0"/></a>
+                            -->
+                            </div>
+                      	</div>
+                    </div>
+                    
+                    <div id="9" class="column" >
+                        <div class="speaker_pic">
+                        <img  class="pic panelPalest2" src="assets/slide3/fotopales-0.png" width="164" height="164" 
+onmouseover="$(this).attr('src','assets/slide3/fotopales-1.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-paulo-1.png')"
+                            onmouseout="$(this).attr('src','assets/slide3/fotopales-0.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-paulo-0.png')"/>
+                            <img class="namePalestrante panelPalest2" src="assets/slide3/name-paulo-0.png" width="164" height="163" style="margin-top:4px;" />
+                            <div style="margin-top:-40px;margin-left:-20px;text-align:center">
+                            <!--
+                            <a href="#" ><img src="assets/ico-t.png" border="0" /></a>
+                            <a href="#"><img src="assets/ico-b.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-c.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-in.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-youtube.png" border="0"/></a>
+                            -->
+                            </div>
+                      	</div>
+                    </div>
+                    
+                     <div id="10" class="column" >
+                        <div class="speaker_pic">
+                        <img  class="pic panelPalest2" src="assets/slide3/fotopales-0.png" width="164" height="164" 
+onmouseover="$(this).attr('src','assets/slide3/fotopales-1.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-ara-1.png')"
+                            onmouseout="$(this).attr('src','assets/slide3/fotopales-0.png');$(this).parent().find('.namePalestrante').attr('src','assets/slide3/name-ara-0.png')"/>
+                            <img class="namePalestrante panelPalest2" src="assets/slide3/name-ara-0.png" width="164" height="163" style="margin-top:4px;" />
+                            <div style="margin-top:-40px;margin-left:-20px;text-align:center">
+                            <!--
+                            <a href="#" ><img src="assets/ico-t.png" border="0" /></a>
+                            <a href="#"><img src="assets/ico-b.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-c.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-in.png" border="0"/></a>
+                            <a href="#"><img src="assets/ico-youtube.png" border="0"/></a>
+                            -->
+                            </div>
                       	</div>
                     </div>
                    
                 </div>
-                <div id="active1" class="active_speaker">
-                    <span class="active_speaker_name">Nome palestrante</span><br />
-                    <p>Assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aquiassunto que sera abordado no evento, descrever aqui.</p>
+                
+                <div id="active6" class="active_speaker">
+                     <span class="active_speaker_name">Iandré Coutinho</span><br />
+                    <p>...</p>
                 </div>
-                <div id="active3" class="active_speaker">
-                     <span class="active_speaker_name">Nome palestrante</span><br />
-                    <p>Assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aquiassunto que sera abordado no evento, descrever aqui.</p>
+                <div id="active7" class="active_speaker">
+                     <span class="active_speaker_name">Luis Filipe</span><br />
+                    <p>...</p>
                 </div>
-                <div id="active2" class="active_speaker">
-                     <span class="active_speaker_name">Nome palestrante</span><br />
-                    <p>Assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aquiassunto que sera abordado no evento, descrever aqui.</p>
+                <div id="active8" class="active_speaker">
+                     <span class="active_speaker_name">Márcio Vieira</span><br />
+                    <p>...</p>
                 </div>
-                <div id="active4" class="active_speaker">
-                     <span class="active_speaker_name">Nome palestrante</span><br />
-                    <p>Assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aquiassunto que sera abordado no evento, descrever aqui.</p>
+                <div id="active9" class="active_speaker">
+                     <span class="active_speaker_name">Paulo Neto</span><br />
+                    <p>...</p>
                 </div>
-                <div id="active5" class="active_speaker">
-                     <span class="active_speaker_name">Nome palestrante</span><br />
-                    <p>Assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aqui, assunto que sera abordado no evento, descrever aquiassunto que sera abordado no evento, descrever aqui.</p>
+                <div id="active10" class="active_speaker">
+                     <span class="active_speaker_name">Ararigleno Fernandes</span><br />
+                    <p>...</p>
                 </div>
             </div>
         </div><!--End Slide 3-->
@@ -246,69 +618,131 @@ Venha fortalecer a sua comunidade. </div>
               	<div id="accordion" class="programacao">
                     <p class="separacao">
                     	<div class="palestrante">
-                    		<span class="horario">08:00</span>Nome palestrante
+                    		<span class="horario">08:00</span>Credenciamento
                         	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
                      	</div>
-                        <div class="menu_body">Descrição</div>
+                        <div class="menu_body">Credenciamento</div>
                    	</p>
                     <p class="separacao">
                     	<div class="palestrante">
-                    		<span class="horario">08:00</span>Nome palestrante
+                    		<span class="horario">08:40</span>Abertura
                         	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
                      	</div>
-                        <div class="menu_body">Descrição</div>
+                        <div class="menu_body">Abertura do evento</div>
                     </p>
                     <p class="separacao">
                     	<div class="palestrante">
-                    		<span class="horario">08:00</span>Nome palestrante
+                    		<span class="horario">09:00</span>Pentaho
                         	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
                      	</div>
-                        <div class="menu_body">Descrição</div>
+                        <div class="menu_body">Pentaho</div>
                    	</p>
                     <p class="separacao">
                     	<div class="palestrante">
-                    		<span class="horario">08:00</span>Nome palestrante
+                    		<span class="horario">09:30</span>Márcio Vieira
                         	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
                      	</div>
-                        <div class="menu_body">Descrição</div>
+                        <div class="menu_body">Ambiente Livre</div>
                    	</p>
                     <p class="separacao">
                     	<div class="palestrante">
-                    		<span class="horario">08:00</span>Nome palestrante
+                    		<span class="horario">10:00</span>Lightning talks
                         	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
                      	</div>
-                        <div class="menu_body">Descrição</div>
+                        <div class="menu_body">Lightning talks</div>
                   	</p>
                     <p class="separacao">
                     	<div class="palestrante">
-                    		<span class="horario">08:00</span>Nome palestrante
+                    		<span class="horario">10:30</span>Coffee Break
                         	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
                      	</div>
-                        <div class="menu_body">Descrição</div>
+                        <div class="menu_body">Coffee Break</div>
                  	</p>
                     <p class="separacao">
                     	<div class="palestrante">
-                    		<span class="horario">08:00</span>Nome palestrante
+                    		<span class="horario">11:00</span>Iandré Coutinho
                         	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
                      	</div>
-                        <div class="menu_body">Descrição</div>
+                        <div class="menu_body">Pentaho Enterprise Edition 4.8</div>
                 	</p>
                     <p class="separacao">
                     	<div class="palestrante">
-                    		<span class="horario">08:00</span>Nome palestrante
+                    		<span class="horario">11:30</span>Pedro Alves
                         	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
                      	</div>
-                        <div class="menu_body">Descrição</div>
+                        <div class="menu_body">Ctools</div>
                    	</p>
                     <p class="separacao">
                     	<div class="palestrante">
-                    		<span class="horario">08:00</span>Nome palestrante
+                    		<span class="horario">12:00</span>Luis Filipe
                         	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
                      	</div>
-                        <div class="menu_body">Descrição</div>
+                        <div class="menu_body">Ourolac</div>
+                	</p>
+                     <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">12:30</span>Almoço Livre
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Almoço Livre</div>
+                	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">13:30</span>Paulo Neto
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Observatório de Políticos Sociais - OPS</div>
+                	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">14:00</span>Ararigleno Fernandes
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Predição com multi-algoritimos no PDI</div>
+                	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">14:30</span>Carina Roldan
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">ETL - Kettle</div>
+                	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">15:00</span>Lightning talks
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Lightning talks</div>
+                	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">15:30</span>Coffe Break
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Coffe Break</div>
+                	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">16:00</span>Caio Moreno
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Criando diversas soluções de inteligência de negócio utilizando Software Livre e Dados Abertos.</div>
+                	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">16:30</span>Ricardo Gouvêa
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Desenvolvimento Ágil de Aplicações de BI com Pentaho Agile BI</div>
+                	</p>
+                    <p class="separacao">
+                    	<div class="palestrante">
+                    		<span class="horario">17:00</span>Fechamento e sorteio de brindes
+                        	<img class="menu_head" src="assets/mais.png" width="17" height="17" />
+                     	</div>
+                        <div class="menu_body">Fechamento e sorteio de brindes</div>
                 	</p>
                     
-                    <p class="intervalos">Intervalos <span style="color:#EBF4E3;">10:00 hrs e 15:00 hrs</span></p>
 				</div>
             </div>
         </div><!--End Slide 4-->
@@ -324,7 +758,7 @@ Venha fortalecer a sua comunidade. </div>
 Fortaleza, CE 60811-020
 Brazil </div>
                 <div style="padding-top:20px;color:#FFF;font-size:30px;">
-                	Colocar map aqui!!!
+                	<iframe width="800" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=FA7+-+Faculdade+7+de+Setembro&amp;aq=&amp;sll=-3.771496,-38.482093&amp;sspn=0.002987,0.00464&amp;ie=UTF8&amp;hq=FA7+-+Faculdade+7+de+Setembro&amp;t=m&amp;ll=-3.765169,-38.482232&amp;spn=0.017129,0.034375&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=FA7+-+Faculdade+7+de+Setembro&amp;aq=&amp;sll=-3.771496,-38.482093&amp;sspn=0.002987,0.00464&amp;ie=UTF8&amp;hq=FA7+-+Faculdade+7+de+Setembro&amp;t=m&amp;ll=-3.765169,-38.482232&amp;spn=0.017129,0.034375&amp;z=15&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
                 </div>
             </div>
         </div><!--End Slide 5-->
@@ -371,6 +805,10 @@ Etc
                 <br />
             </div>
         </div><!--End Slide 6-->
+<a href="http://fabiorogeriosj.com.br" target="_blank" id="desenvolvidoPor" title="F&aacute;bio Rog&eacute;rio SJ" class="tipsY">
 
+    <img src="assets/desenvolvimento.png" border="0" width="131" height="23"/>
+
+    </a>
 	</body>
 </html>

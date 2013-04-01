@@ -67,4 +67,16 @@ jQuery(document).ready(function ($) {
 		$(this).parent().next().slideToggle(300).siblings("div.menu_body").slideUp("slow");
 		$(this).parent().siblings().find("img.menu_head").attr("src","assets/mais.png");
 	});
+	
+	$(".inphotosEvento a").fancybox({
+				'overlayShow'	: true,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic',
+				'opacity'		: true,
+			});
+	$('.tipsY').tipsy({
+		gravity: 's', // nw | n | ne | w | e | sw | s | se
+		fade: true,
+		opacity: 0.8
+	});
 });

@@ -12,6 +12,13 @@ html,body{
 	background-position:center;
 	background-position-y:-50px;
 }
+#desenvolvidoPor {
+	position:fixed;	
+	top:100%;
+	left:100%;
+	margin-top:-23px;
+	margin-left:-131px;
+}
 p{
 	line-height:17px;
 	padding-bottom:15px;
@@ -21,6 +28,13 @@ a:link,
 a:visited
 {
 	color:#EBF4E3;
+}
+.inphotosEvento {
+	text-align:center;	
+}
+.inphotosEvento img {
+	margin:10px;
+	border:4px solid #FFF;	
 }
 textarea {
 	resize: none;
@@ -130,9 +144,15 @@ td{
 	color:#00397c;
 	font-family:'NettoOT-Bold';
 }
+#organizacaoIndex {
+	text-align:center;	
+}
+#organizacaoIndex a {
+	margin:25px;	
+}
 #slide1 .hora{
 	position:absolute;
-	top:55%;
+	top:52%;
 	font-size:17px;
 	color:#00397c;
 	font-family:'NettoOT-Bold';
@@ -170,6 +190,7 @@ td{
 *******************************/
 #slide3{
 	background-color:#131519;
+	height:1300px !important;
 }
 #slide3 .column{
 	float:left;
@@ -212,6 +233,7 @@ td{
 #slide4{
 /*	background-color:#EBF5E3;*/
 	background-image:url(../assets/slide4/pattern.jpg);
+	height:1200px !important;
 }
 #slide4 .programacao{
 	font-family:'NettoOT';

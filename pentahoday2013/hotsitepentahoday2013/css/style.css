@@ -15,9 +15,10 @@ html,body{
 #desenvolvidoPor {
 	position:fixed;	
 	top:100%;
-	left:95%;
+	left:100%;
+	width: 320px;
 	margin-top:-23px;
-	margin-left:-220px;
+	margin-left:-320px;
 }
 p{
 	line-height:17px;

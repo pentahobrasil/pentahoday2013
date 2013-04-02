@@ -15,9 +15,9 @@ html,body{
 #desenvolvidoPor {
 	position:fixed;	
 	top:100%;
-	left:100%;
+	left:95%;
 	margin-top:-23px;
-	margin-left:-131px;
+	margin-left:-220px;
 }
 p{
 	line-height:17px;
@@ -146,6 +146,7 @@ td{
 }
 #organizacaoIndex {
 	text-align:center;	
+	width:100%;
 }
 #organizacaoIndex a {
 	margin:25px;	
@@ -162,7 +163,7 @@ td{
 *******************************/
 #slide2{
 	background-color:#EBF5E3;
-	height:850px;
+	height:970px;
 }
 #slide2 .subtitle{
 	padding-top:20px;
@@ -190,7 +191,7 @@ td{
 *******************************/
 #slide3{
 	background-color:#131519;
-	height:1300px !important;
+	height:1600px !important;
 }
 #slide3 .column{
 	float:left;
@@ -233,7 +234,7 @@ td{
 #slide4{
 /*	background-color:#EBF5E3;*/
 	background-image:url(../assets/slide4/pattern.jpg);
-	height:1200px !important;
+	height:1300px !important;
 }
 #slide4 .programacao{
 	font-family:'NettoOT';
